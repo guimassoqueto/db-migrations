@@ -1,4 +1,4 @@
 CREATE TABLE go_rabbit_pg (
-	"id" SERIAL,
-	"message" TEXT NOT NULL
+	"id" VARCHAR(10) PRIMARY KEY NOT NULL,
+	"title" TEXT NOT NULL
 );
