@@ -5,6 +5,7 @@ CREATE TABLE go_rabbit_pg (
 	"reviews" INTEGER NOT NULL,
 	"free_shipping" BOOLEAN NOT NULL,
 	"image_url" TEXT NOT NULL,
+	"discount" INTEGER NOT NULL,
 	"created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
 	"updated_at" TIMESTAMP WITH TIME ZONE NOT NULL
 );
