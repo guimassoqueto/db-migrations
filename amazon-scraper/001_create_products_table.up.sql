@@ -4,7 +4,7 @@ CREATE TABLE products (
 	"image_url" TEXT NOT NULL,
 	"category" VARCHAR(255) NOT NULL,
 	"reviews" INTEGER NOT NULL,
-	"free_shipping" BOOLEAN NOT NULL DEFAULT false,
+	"free_shipping" BOOLEAN NOT NULL,
 	"price" NUMERIC(9,2) NOT NULL,
 	"previous_price" NUMERIC(9,2) NOT NULL,
 	"discount" INTEGER NOT NULL,

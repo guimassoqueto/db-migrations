@@ -3,6 +3,7 @@ CREATE TABLE go_rabbit_pg (
 	"title" TEXT NOT NULL,
 	"category" VARCHAR(255) NOT NULL,
 	"reviews" INTEGER NOT NULL,
+	"free_shipping" BOOLEAN NOT NULL,
 	"created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
 	"updated_at" TIMESTAMP WITH TIME ZONE NOT NULL
 );
