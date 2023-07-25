@@ -1,0 +1,3 @@
+CREATE TABLE executions (
+	"stamp" TIMESTAMP WITH TIME ZONE NOT NULL
+);

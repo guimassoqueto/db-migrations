@@ -1,3 +1,0 @@
-CREATE TABLE executions (
-	"timestamp" TIMESTAMP WITH TIME ZONE NOT NULL
-);
