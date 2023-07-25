@@ -7,6 +7,7 @@ CREATE TABLE go_rabbit_pg (
 	"image_url" TEXT NOT NULL,
 	"discount" INTEGER NOT NULL,
 	"price" NUMERIC(9,2) NOT NULL,
+	"previous_price" NUMERIC(9,2) NOT NULL,
 	"created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
 	"updated_at" TIMESTAMP WITH TIME ZONE NOT NULL
 );
