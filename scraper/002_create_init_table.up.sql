@@ -1,3 +1,3 @@
-CREATE TABLE scrap_init (
+CREATE TABLE init (
 	"created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
 );
