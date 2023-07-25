@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS init;
+DROP TABLE IF EXISTS executions;
