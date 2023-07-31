@@ -1,2 +1,2 @@
 or:
-	open https://github.com/guimassoqueto/db-migrations
+	open https://github.com/guimassoqueto/migrations
