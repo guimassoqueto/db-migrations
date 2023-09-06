@@ -1,5 +1,6 @@
 CREATE TABLE items (
-	"id" TEXT PRIMARY KEY NOT NULL,
+	"id" VARCHAR(8) UNIQUE NOT NULL DEFAULT SPLIT_PART(cast(uuid_generate_v4() as text), '-', 1),
+	"product_url" TEXT PRIMARY KEY NOT NULL,
 	"title" TEXT NOT NULL,
 	"category" VARCHAR(255) NOT NULL,
 	"reviews" INTEGER NOT NULL,
