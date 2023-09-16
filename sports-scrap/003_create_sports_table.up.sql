@@ -5,6 +5,7 @@ CREATE TABLE sports (
 	"title" TEXT NOT NULL,
 	"category" VARCHAR(255) NOT NULL,
 	"reviews" INTEGER NOT NULL DEFAULT 0,
+	"free_shipping" BOOLEAN NOT NULL,
 	"image_url" TEXT NOT NULL,
 	"price" NUMERIC(9,2) NOT NULL,
 	"previous_price" NUMERIC(9,2) NOT NULL,
