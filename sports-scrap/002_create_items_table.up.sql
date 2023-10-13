@@ -9,6 +9,7 @@ CREATE TABLE items (
 	"image_url" TEXT NOT NULL,
 	"price" NUMERIC(9,2) NOT NULL,
 	"previous_price" NUMERIC(9,2) NOT NULL,
+	"sold_last_month" INTEGER NOT NULL,
 	"discount" INTEGER NOT NULL,
 	"created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
 	"updated_at" TIMESTAMP WITH TIME ZONE NOT NULL
