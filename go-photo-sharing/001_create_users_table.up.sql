@@ -1,4 +1,4 @@
 CREATE TABLE users (
-	"email" VARCHAR(254) UNIQUE NOT NULL,
-	"password" TEXT NOT NULL
+	"id" SERIAL PRIMARY KEY,
+	"email" TEXT NOT NULL
 );
